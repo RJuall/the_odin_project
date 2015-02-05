@@ -1,0 +1,49 @@
+header {
+	float: right;
+}
+
+header ul li {
+	display: inline;
+}
+header ul a {
+	text-decoration: none;
+}
+
+footer {
+	clear: all;
+}
+
+#logo {
+	height: 95px;
+	width: 269px;
+	padding-top:112px;
+	clear: both;
+}
+
+input {
+	display: block;
+	clear: both;
+}
+
+#butts {
+	clear: both;
+}
+
+#fright {
+	float: right;
+}
+
+#fleft {
+	float: left;
+}
+
+footer {
+}
+
+footer ul a {
+	text-decoration: none;
+}
+
+footer ul li {
+	display: inline;
+}
