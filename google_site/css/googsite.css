@@ -3,6 +3,10 @@ body {
     font-size: small;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 header {
 	float: right;
     height: 40px;
@@ -19,8 +23,8 @@ header {
 header ul li {
 	display: table-cell;
     vertical-align: middle;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 header ul a {
