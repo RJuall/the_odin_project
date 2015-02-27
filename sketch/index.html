@@ -16,14 +16,24 @@
   
   <header>
    <h1>Virtual Sketchpad</h1>
-   <p>Choose the grid size:</p>
-   <button>GRIDSIZE</button>
-   <input>
+   <h3>Grid Size</h3>
+   <form id="changeSize">
+   <label>Please choose your grid size (1-100) <br>
+    <input type="number" min="1" max="100" placeholder="25" id="gsize" required>
+    <input type="submit"></label>
+   </form>
+   <button id="reset">RESET</button>
   </header>
   
   <main>
    <div id="grid">
-    <table id="tab"></table>
+    <table id="tab">
+     <tbody>
+      <tr><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td></tr>
+     </tbody>
+    </table>
    </div>
   </main>
   
